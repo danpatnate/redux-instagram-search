@@ -1,0 +1,9 @@
+*.swp
+npm-debug.log
+node_modules/
+static/
+coverage/
+config/*
+!config/default.json
+.gulp-scss-cache/
+.sass-cache/

@@ -1,0 +1,12 @@
+{
+  "react-starter": "http://localhost:3000",
+  "feature": {
+    "url": "https://api.instagram.com/",
+    "apiRootPath": "v1",
+    "key": "5d957b93147844c396ea8a1bd3e94a11",
+    "authorization": "Bearer 5d957b93147844c396ea8a1bd3e94a11",
+    "client": "react-starter",
+    "id": "195fce9e99ee4535acf653662ff5aaaf",
+    "oAuth": "https://api.instagram.com/oauth/authorize/?client_id=195fce9e99ee4535acf653662ff5aaaf&redirect_uri=http://localhost:3001&response_type=token&scope=basic+public_content+follower_list+comments+relationships+likes"
+  }
+}

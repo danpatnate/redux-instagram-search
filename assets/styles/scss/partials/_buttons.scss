@@ -1,0 +1,33 @@
+.h2-btn-wrap {
+  @include clearfix;
+
+  .btn {
+    display: block;
+    float: right;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .h2-btn-wrap {
+    .btn {
+      width: auto;
+      min-width: 100px;
+      margin: 0;
+      margin-right: 10px;
+
+      &:first-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

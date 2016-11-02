@@ -1,0 +1,17 @@
+// Core variables and mixins
+@import "variables/theme";
+
+// Import bootstrap official
+@import "../bootstrap-sass-master/bootstrap";
+
+// Global
+@import "partials/global";
+
+// Buttons
+@import "partials/buttons";
+
+// Forms
+@import "partials/forms";
+
+// DatePicker
+@import "partials/datepicker";

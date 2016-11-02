@@ -1,0 +1,16 @@
+input.form-control, textarea.form-control, select.form-control {
+  &.modern {
+    height: 50px;
+  }
+}
+
+// Reset height for `textarea`s
+textarea.form-control {
+  &.modern {
+    height: auto;
+  }
+}
+
+select.form-control {
+  cursor: pointer;
+}
